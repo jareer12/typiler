@@ -23,3 +23,10 @@ console.log(MyPet.stats());
 ```sh
 npm install pets
 ```
+
+## Usage
+
+```sh
+## Run Typescript Directly
+npm run start
+```
