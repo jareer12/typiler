@@ -1,6 +1,6 @@
-# typescript
+# Pets - Typescript
 
-⚡ Typescript code I wrote, to learn typescript.
+Small typescript module, I made to learn typescript.
 
 ```ts
 import Pet from "petz";
@@ -16,4 +16,10 @@ console.log(MyPet.info());
 
 MyPet.feed("Banana", 100);
 console.log(MyPet.stats());
+```
+
+## Installation
+
+```sh
+npm install pets
 ```

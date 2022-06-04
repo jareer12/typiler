@@ -18,7 +18,7 @@ class Master {
     };
     this.Information = Information;
   }
-  cron() {
+  save() {
     this.Information.Age = Math.floor(
       (new Date().getTime() - this.Information.Created) / 1000
     );
@@ -41,7 +41,7 @@ class Master {
       Orange: 24,
     };
     this.Data.Experience += Quantity * _values[Food];
-    this.cron();
+    this.save();
   }
   stats() {
     return this.Data;
