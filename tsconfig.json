@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "Node16",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true
+  },
+  "include": ["src/*", "test/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
