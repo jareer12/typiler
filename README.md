@@ -1,32 +1,14 @@
-# Typescript
+# Typiler
 
-## Petz
+⚡ Typiler allows you to run other programming languages.
 
-```ts
-import Pet from "petz";
+## Information & OS
 
-const MyPet = new Pet({
-  Created: new Date().getTime(),
-  Name: "Charlie",
-  Type: "Dog",
-  Age: 3,
-});
-
-console.log(MyPet.info());
-
-MyPet.feed("Banana", 100);
-console.log(MyPet.stats());
-```
-
-## Installation
-
-```sh
-npm install pets
-```
-
-## Usage
-
-```sh
-## Run Typescript Directly
-npm run start
-```
+| Compiler   | Win32 | Linux | Pre-installed |
+| ---------- | ----- | ----- | ------------- |
+| Javascript | ✔️    | ✔️    | ✔️            |
+| Python     | ✔️    | ✔️    | ❌            |
+| Lua        | ✔️    | ❌    | ✔️            |
+| Luau       | ✔️    | ❌    | ✔️            |
+| Luac       | ✔️    | ❌    | ✔️            |
+| wLua       | ✔️    | ❌    | ✔️            |
