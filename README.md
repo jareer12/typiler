@@ -1,6 +1,6 @@
-# Pets - Typescript
+# Typescript
 
-Small typescript module, I made to learn typescript.
+## Petz
 
 ```ts
 import Pet from "petz";
