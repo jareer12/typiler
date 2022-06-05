@@ -24,7 +24,7 @@ class Master {
     );
 
     const x = this.Data.Level;
-    const equation = x * 250 + x * 250 + x * 250;
+    const equation = x * 750;
     while (this.Data.Experience >= equation) {
       this.Data.Level++;
       this.Data.Experience -= equation;
